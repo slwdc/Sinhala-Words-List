@@ -1,7 +1,7 @@
 {
   "name": "sinhala-words",
   "version": "1.0.0",
-  "description": "A list of words in Sinhalese language for your autocompletion and other use cases.",
+  "description": "A list of words in Sinhalese language for your autocompletion, spell-check and other use cases.",
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -17,7 +17,10 @@
     "sinhala",
     "dictionary",
     "words",
-    "autocomplete"
+    "autocomplete",
+	"spell",
+	"spellcheck",
+	"spell-check"
   ],
   "author": "Ayesh Karunaratne",
   "license": "GPL-3.0",
