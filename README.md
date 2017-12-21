@@ -16,11 +16,12 @@ Installation
 Usage
 -----
 For Node-based projects, you can use this words list by splitting the list of words by `\n` new line character. 
+```javascript
+const fs = require('fs');
 
-    const fs = require('fs');
-    
-    // Get path to the words list.
-    const sinhala_words_path= require('word-list');
-    
-    const sinhala_words= fs.readFileSync(sinhala_words_path, 'utf8').split('\n');
-    // ['අභිචෝදකයා', 'අංකනය', 'අංකන', ...]
+// Get path to the words list.
+onst sinhala_words_path= require('word-list');
+
+const sinhala_words= fs.readFileSync(sinhala_words_path, 'utf8').split('\n');
+// ['අභිචෝදකයා', 'අංකනය', 'අංකන', ...]
+```
