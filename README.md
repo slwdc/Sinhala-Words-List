@@ -1,7 +1,7 @@
 Sinhala Words List
 ==================
 
-A list of words in Sinhalese language, sorted by alphabetical order. 
+A list of words in Sinhalese language, sorted by alphabetical order. Contains ~25,000 words.
 
 ## Format
 The list of words is trimmed, and stored in a flat text file `si.txt`. Each word is separate by a new line character `\n`. 
